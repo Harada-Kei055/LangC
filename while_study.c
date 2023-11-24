@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    double i =-1;
-    while (i<10.0) {
-        printf("%f\n", i);
-        i++;
+    int count = 1;
+    while (count<=10) {
+        printf("%d\n", count);
+        count++;
         }
         return 0;
         }
